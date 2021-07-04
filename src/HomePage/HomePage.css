@@ -3,7 +3,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 24px 56px;
-	margin: 0 360px 0 50px;
+	margin: 0 360px 100px 50px;
 }
 
 .banner__left {
@@ -32,4 +32,11 @@
 
 .banner__right {
 	padding: 40px 0 0 24px;
+}
+
+.banner__left > div > span > a {
+	text-decoration: none;
+}
+.banner__left > div > span > a:hover {
+	text-decoration: underline;
 }

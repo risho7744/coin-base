@@ -10,48 +10,40 @@ function Navbar() {
 			</div>
 			<div className='menu'>
 				<nav style={{ display: 'flex' }}>
-					<a href='https://www.coinbase.com/'>
-						<div>
+					<div>
+						<a href='https://www.coinbase.com/'>
 							<span>Price</span>
-						</div>
-					</a>
-					<a href='https://www.coinbase.com/'>
-						<div>
+						</a>
+					</div>
+					<div>
+						<a href='https://www.coinbase.com/'>
 							<span>Learn</span>
-						</div>
-					</a>
-					<a href='https://www.coinbase.com/'>
-						<div>
+						</a>
+					</div>
+					<div>
+						<a href='https://www.coinbase.com/'>
 							<span>Individuals</span>
-						</div>
-					</a>
-					<a href='https://www.coinbase.com/'>
-						<div>
+						</a>
+					</div>
+					<div>
+						<a href='https://www.coinbase.com/'>
 							<span>Businesses</span>
-						</div>
-					</a>
-					<a href='https://www.coinbase.com/'>
-						<div>
+						</a>
+					</div>
+					<div>
+						<a href='https://www.coinbase.com/'>
 							<span>Developers</span>
-						</div>
-					</a>
-					<a href='https://www.coinbase.com/'>
-						<div>
+						</a>
+					</div>
+					<div>
+						<a href='https://www.coinbase.com/'>
 							<span>Company</span>
-						</div>
-					</a>
+						</a>
+					</div>
 				</nav>
 			</div>
 			<div className='menu__right'>
-				<span
-					style={{
-						padding: '18px',
-						fontSize: '14px',
-						fontWeight: '500',
-					}}
-				>
-					Sign in
-				</span>
+				<span>Sign in</span>
 				<button type='button' className='btn'>
 					Get started
 				</button>

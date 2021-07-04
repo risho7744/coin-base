@@ -9,20 +9,41 @@
 	background-color: #fff;
 }
 
-nav > a {
+nav > div > a {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
 	font-size: 14px;
 }
 
-nav > a > div {
+nav > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 66px;
+}
+
+nav > div:hover {
+	border-bottom: 3px solid #0a46e4;
+}
+
+nav > div > a {
 	padding: 0 18px;
 }
 
 .logo > img {
 	width: 112px;
 	height: 20px;
+}
+
+.menu__right > span {
+	padding: 18px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.menu__right > span:hover {
+	color: #0a46e4;
 }
 
 .menu__right > button {
