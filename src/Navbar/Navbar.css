@@ -1,0 +1,33 @@
+.navbarr {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: content-box;
+	margin: 0 340px;
+	padding: 0 20px;
+	height: 66px;
+	background-color: #fff;
+}
+
+nav > a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+nav > a > div {
+	padding: 0 18px;
+}
+
+.logo > img {
+	width: 112px;
+	height: 20px;
+}
+
+.menu__right > button {
+	font-weight: 500;
+	font-size: 14px;
+	background-color: #0a46e4;
+	color: white;
+}

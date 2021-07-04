@@ -1,0 +1,25 @@
+.statistics {
+	background-color: #0052ff;
+	color: #fff;
+	height: 216px;
+}
+.__statistics__ {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 0 360px;
+	padding: 24px;
+	height: 216px;
+}
+
+.statistics__section > h2 {
+	font-size: 62px;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.statistics__section > p {
+	margin: 0;
+	font-weight: 400;
+}
